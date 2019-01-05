@@ -1,0 +1,555 @@
+
+.header-main{
+  position: fixed;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.3) !important;
+}
+
+
+/*background video*/
+.background-video-content{
+  position: relative;
+ text-align: center;
+ color: white;
+ background-color: black;
+  height: 656px;
+
+}
+
+.backgrnd-video{
+	text-shadow:rgba(0,0,0,.6);
+
+}
+
+.centered {
+  position: absolute;
+
+
+}
+
+
+.main-introduction-content{
+
+
+
+ position:absolute;
+
+ top: 50%;
+ left: 50%;
+
+transform: translate(-50%, -50%);
+
+}
+.main-introduction-content h1{
+
+  font-size: 5.5vw;
+  font-weight: 0;
+}
+.main-intro-text{
+font-family: "Playfair Display";
+}
+
+.back-layout-main{
+  background: url(./img/back.mp4) center / cover;
+
+}
+
+
+
+
+#join-now-back{
+      background-color: transparent;
+      color:white;
+    border: 2px solid #00CB94;
+       padding: 8px;
+    width: 100px;
+
+}
+
+#join-now-back:hover{
+  background-color: #00CB94;
+  text-decoration: none;
+}
+
+
+
+
+/*background video end*/
+
+/*landing-aboutme below back video*/
+.my-info{
+  display: block;
+  background-color: #1D245C;
+  width: 100%;
+  top:0;
+  margin: 0;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+.my-description{
+    padding-top: 40px;
+}
+
+
+
+/*landing-aboutme below back video end*/
+
+
+.landing-grid{
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+position: fixed;
+top: 0;
+left: 0;
+ width: 100%;
+ height: 100%;
+
+}
+
+.projects-grid{
+  display: flex;
+
+}
+
+.projects-grid-2{
+  display: flex;
+  padding-top: 30px;
+
+
+}
+/*projects landing page*/
+
+.genre-head{
+  text-align: center;
+  padding: 10px 0;
+  color:black;
+}
+
+.projects-landing{
+padding-bottom: 100px;
+}
+/*top projects*/
+.cont-top {
+  position: relative;
+  width: 100%;
+
+}
+
+.project-list-1{
+  width: 90%;
+}
+.project-list-2{
+  width: 90%;
+  padding-bottom: 20px;
+}
+
+
+.overlay-projects-top {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    opacity: 0.8;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cont-top:hover .overlay-projects-top {
+  height: 100%;
+}
+
+.text-projects-top {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*top projects*/
+
+/*bottom projects*/
+.cont-bot {
+  position: relative;
+  width: 100%;
+}
+.image-projects {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-projects-bottom {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+    opacity: 0.8;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .9s ease;
+}
+
+.cont-bot:hover .overlay-projects-bottom {
+  bottom: 0;
+  height: 100%;
+}
+
+.text-projects-bottom {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*bottom projects*/
+/*projects landing page*/
+
+/*about content landing page*/
+
+.align-center-aboutcontact{
+
+  height: 500px;
+
+
+}
+
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1D245C;
+  border-radius: 6;
+  color:white;
+  transition-property: background, border-radius;
+  transition-duration: 6s, 0.5s;
+  transition-timing-function: ease-in-out;
+  height:100%;
+  width: 100%;
+  line-height: 95px;
+  text-align: center;
+  cursor: pointer;
+      font-size: 5vw;
+}
+
+.highlight {
+  font-weight: 900;
+}
+
+.box:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}
+
+/*about content landing page end*/
+
+/* Resume page*/
+
+.resume-main{
+  padding-top: 48px;
+}
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+
+/* Resume page*/
+/*skills page*/
+.skills {
+  margin: 0 0 30px 0;
+  padding: 0;
+  width: calc(100% - 50px);
+}
+.skills li {
+  text-align: left;
+  display: block;
+  position: relative;
+  background-color: #888;
+  color: #fff;
+  margin: 3px 0;
+  transition: width 300ms ease-in-out;
+    .collapsed & {
+      width: 0 !important;
+    }
+  }
+  .skills p {
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .skills span {
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+    width: 30px;
+    top: 11px;
+    text-align: right;
+    font-weight: normal;
+    color: #fff;
+    font-size: 11px;
+  }
+
+
+
+
+/*skills page end*/
+
+/*about page*/
+
+.about-header{
+
+  position: relative;
+  height: 365px;
+  background-image: linear-gradient(#1D245C, #1D245C);
+}
+
+
+ .header-about-info{
+	 padding: 70px 0;
+
+
+  text-align: center;
+  color: white;
+}
+
+.header-para{
+	padding-top: 0px;
+
+}
+
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.div-main-all-stats{
+  background-color: beige;
+
+}
+.main-section-about-second{
+      padding: 40px 40px 40px 115px;
+}
+.main-section-about-second:hover{
+  background:aliceblue;
+
+}
+
+
+
+
+.head-about-second{
+  font-family: "Montserrat";
+  font-size: 38px;
+line-height: 42px;
+font-weight: 700;
+}
+
+.para-about-second{
+  width: 84%;
+}
+
+.demo-grid-2{
+  justify-content: center;
+text-align: center;
+  justify-content: center;
+
+}
+
+/*about page*/
+
+/* Contact page*/
+.contact-main{
+padding: 20px 0;
+      background: aliceblue;
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+
+.contact-main form button {
+  display: block;
+  width: 100%;
+  appearance: none;
+  border-radius: 5px;
+  background-color: #84c00c;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.contact-main form button:hover {
+  background-color: #669509;
+}
+
+.contact-main form button:disabled {
+  background-color: blac;
+  color: #333;
+}
+.modal{
+  textAlign:center;
+  background-color: #84c00c;
+  color:white;
+
+  padding: 20px;
+  border-radius:5px;
+  border:none;
+  font-size: 16px;
+}
+
+/* FORM STYLES */
+
+/* LARGE SCREENS */
+@media(min-width:700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > *{
+    padding:2em;
+  }
+
+  .company-info h3, .company-info ul, .brand{
+    text-align: left;
+  }
+}
+
+
+.contact-body{
+  margin: auto;
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 5em;
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+
+  margin-bottom: 20px;
+}
+
+.contact-grid h2{
+  font-family: 'Anton', san-serif;
+}
+
+.contact-grid h2{
+  font-family: 'Oxygen', san-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin:auto;
+}
+
+.contact-list i{
+    font-size:66px;
+    padding-right: 5rem;
+  }
+
+/* Contact page*/
+
+/* Project page*/
+.category-tabs{
+      padding-top: 60px;
+}
+.projects-1-1{
+
+  background: url(./img/bb.png) center / cover;
+  width: 100%;
+   height:176px;
+
+}
+.projects-1-2{
+
+
+
+  background: url(./img/ha.png) center / cover;
+  width: 100%;
+   height:176px;
+
+}
+
+.projects-1-3{
+
+
+
+  background: url(./img/hafele.png) center / cover;
+  width: 100%;
+   height:176px;
+
+}
+
+.projects-react-1{
+  background: url(./img/show.png) center / cover;
+  width: 100%;
+   height:176px;
+
+}
+
+.projects-react-2{
+  background: url(./img/react.png) center / cover;
+  width: 100%;
+   height:176px;
+
+}
+
+.project-android{
+
+    background: url(./img/a.png) center / cover;
+    width: 100%;
+     height:176px;
+     color: #fff !important;
+}
+
+
+
+.project-word{
+  background: url(./img/wordpress.png) center / cover;
+  width: 100%;
+   height:176px;
+
+}
+.project-square{
+  background: url(./img/show.png) center / cover;
+  width: 100%;
+   height:176px;
+
+}
+
+
+
+/* Projects page*/
